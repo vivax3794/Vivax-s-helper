@@ -34,7 +34,6 @@ class Logger:
         self.WARNING = self._construct_log_function("WARNING")
         self.ERROR = self._construct_log_function("ERROR")
         self.USER_ERROR = self._construct_log_function("USER_ERROR")
-        self.USER_ERROR = self._construct_log_function("USER_ERROR")
 
     def _log(self, level: str, msg: str) -> None:
         """
